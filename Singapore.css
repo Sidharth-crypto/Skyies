@@ -1,0 +1,57 @@
+body{
+    background-color: bisque;
+}
+
+.cards img{
+    height: 300px;
+    width: 300px;
+}
+
+.cards{
+    height: fit-content;
+    width: fit-content;
+}
+
+#name{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: white;
+}
+
+#last{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#cardno{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#password{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#email{
+    background-color: transparent;
+    border:1px solid black ;
+    border-radius: 6px;
+}
+
+.submit{
+    color: black ;
+    border: 1px solid black;
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color:black;
+}

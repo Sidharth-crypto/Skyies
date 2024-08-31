@@ -1,0 +1,51 @@
+body{
+    background-color: crimson;
+}
+
+h1{
+    color: bisque;
+}
+
+.cards{
+    position: relative;
+    bottom: -100px;
+    z-index: -1;
+    height: 300px;
+    width: 300px;
+    text-shadow: 0 4px 6px -1px black;
+    
+}
+
+.payment{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#name{
+    outline: none;
+    border-radius: 6px;
+}
+
+
+.submit{
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+@media (width <=412px){
+    .cards{
+        position: relative;
+        top: 1px;
+        height: 150px;
+        width: 150px;
+    }
+    #name{
+        color: black;
+        position: relative;
+        top: -100px;
+    }
+}

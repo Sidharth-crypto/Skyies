@@ -1,0 +1,65 @@
+body{
+    background-color: orangered;
+}
+
+.popup{
+    max-height: fit-content;
+    max-width: fit-content;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.popup img{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: -10px;
+    animation: levitation 1s infinite alternate;
+}
+
+.pop{
+    font-size: 3em;
+}
+
+@keyframes levitation{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+
+
+.home{
+    font-size: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media (width <= 412px){
+    .popup{
+        height: 200px;
+        position: relative;
+        bottom: -140px;
+    }
+
+    .popup img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .pop{
+        left: -70px;
+        top: -10px;
+        font-size: 1pc
+    }
+
+    .home{
+        position: relative;
+       bottom: -110px;
+    }
+}

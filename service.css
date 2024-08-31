@@ -1,0 +1,65 @@
+body{
+    background-color: tan;
+}
+
+h1{
+    color: white;
+    animation: logo 1s ease-in-out infinite alternate;
+    font-size: 40px;
+}
+
+@keyframes logo{
+    from{
+        text-shadow: 0 0 20px white;
+    }
+    to{
+        text-shadow: 0 0 30px white,
+                     0 0 10px white;
+    }
+}
+
+nav{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left:10px;
+    animation: navs 2s infinite alternate;
+}
+
+@keyframes navs{
+    from{
+        color: black;
+        background-color: #FFFDD0;
+        border-radius: 2px;
+    }
+    to{
+        background-color: #e98c00;
+        border-radius: 4px;
+        color: black;
+    }
+}
+
+.service{
+    height: 100px;
+    width: 100px;
+    border: 1px solid tan;
+    border-radius: 20px;
+}
+
+.service1{
+    color: white;
+}
+
+@media (width <= 412px){
+    .service1{
+        font-size: 8px;
+    }
+}
